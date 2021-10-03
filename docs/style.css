@@ -130,9 +130,15 @@ body{
         margin-bottom: 5%;
         gap: 10px;
     }
+
     .totBtn:hover{
         transform:scale(1.2,1.2);
         transition-duration: 900ms;
+
+    }
+    .totBtn{
+        transform:scale(1,1);
+        transition-duration: 500ms;
     }
     .user-input{
         max-width: 300px;
