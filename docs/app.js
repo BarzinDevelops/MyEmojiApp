@@ -26,13 +26,13 @@ addBeginBtn.addEventListener('click', ()=>{
     if(usrInput.value){
         myEmojis.unshift(usrInput.value)
         render()
-    } else msg.textContent = "First you need to enter your Emoji before adding!"
+    } else msg.textContent = "First enter your Emoji before adding!"
 })
 addEndBtn.addEventListener('click', ()=>{
     if(usrInput.value){
         myEmojis.push(usrInput.value)
         render()
-    }else msg.textContent = "First you need to enter your Emoji before adding!"
+    }else msg.textContent = "First enter your Emoji before adding!"
 })
 rmvBeginBtn.addEventListener('click', ()=>{
     myEmojis.shift()
