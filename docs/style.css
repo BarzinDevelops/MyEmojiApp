@@ -87,7 +87,7 @@ body{
 .emoji-span{
     font-size: 50px;
 }
-@media only screen and (max-width: 750px){
+@media screen and (max-width: 750px){
     *{
         margin: 0px;
     }
@@ -112,8 +112,11 @@ body{
     .emoji-span{
         font-size: 25px;
     }
+
     .container{
-justify-content: flex-start;
+        min-height: 100vh;
+        border: 3px solid red;
+        justify-content: flex-start;
         background-image: none;
         background-image: 
         linear-gradient(rgb(7, 5, 10),rgb(48, 39, 58), rgba(79, 61, 90, 0.8) );
@@ -142,7 +145,7 @@ justify-content: flex-start;
         font-size: 18px;
         color:rgba(206, 150, 150, 0.8);
         max-width: 300px;
-    }
+    }   
 
     [class^="rmv-"]:active{
         background-color: rgb(49, 19, 133);
